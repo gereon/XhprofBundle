@@ -58,7 +58,7 @@ class XhprofDetail
     protected $post;
 
     /**
-     * @ORM\Column(name="get", type="blob", nullable=false)
+     * @ORM\Column(name="`get`", type="blob", nullable=false)
      */
     protected $get;
 
@@ -78,7 +78,7 @@ class XhprofDetail
     protected $cpu;
 
     /**
-     * @ORM\Column(name="server_id", type="string", length=3, nullable=false)
+     * @ORM\Column(name="server_id", type="string", length=25, nullable=false)
      */
     protected $serverId;
 
